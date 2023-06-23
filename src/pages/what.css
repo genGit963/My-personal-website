@@ -1,0 +1,48 @@
+.what-body{
+    /* background-image: url(../gen-web/solo-learner.jpg); */
+    background-image: url(../gen-web/first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 800px;
+    width: 100%;
+}
+
+.what-par{
+    color: linear-gradient(to right, green, blue, red);
+    /* background-color: green; */
+
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: 12%;
+    left: 48%;
+
+    font-family: Mitr;
+    font-size: 30px;
+
+    /* font-style:; */
+
+}
+
+.span-what{
+    color: rgb(255, 255, 255);
+
+    background: -webkit-linear-gradient(rgb(31, 5, 58),  #277a9d, rgb(154, 7, 7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.p-what {
+    background: -webkit-linear-gradient(#163201, rgb(3, 137, 36),  #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.h4-what{
+    font-style: normal;
+  }

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import WhatAmI from './pages/whatAmI';
+import WhoAmI from './pages/whoAmI';
+import WhereAmI from './pages/whereAmi';
+import WhyAmI from './pages/whyAmi';
+
+import NavBar from './components/navbar';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<WhatAmI />} />
+        <Route path="/who" element={<WhoAmI />} />
+        <Route path="/why" element={<WhyAmI />} />
+        <Route path="/where" element={<WhereAmI />} />
+      </Routes>
+
+      {/* <div className='whole-body'>
+        <WhatAmI />
+        <WhoAmI />
+        <WhyAmI />
+        <WhereAmI />
+      </div> */}
+
+
     </div>
   );
 }

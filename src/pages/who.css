@@ -1,0 +1,146 @@
+
+
+.who-body{
+
+    /* background-image: url(../gen-web/solo-learner.jpg); */
+    background-image: url(../gen-web/skills.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 820px;
+    width: 100%;
+
+    color: rgb(0, 0, 0);
+
+    /* border-radius: 20px; */
+
+    margin-bottom: 2%;
+}
+
+.who-par{
+
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 13%;
+    left: 29%;
+
+    font-family: Mitr;
+    border: 2px solid;
+    /* box-shadow: 2px 1px 2px 1px #00000071; */
+    /* opacity: 90; */
+    padding: 1.2%;
+    border-radius: 5px;
+    z-index: 0;
+    
+    font-size: 16px;
+
+}
+
+.who-par-1{
+    color: rgb(2, 1, 16);
+    font-size: 20px;
+    
+    font-weight: 600;
+}
+
+/* ---------------------------------- Web ----------------------------- */
+.web{
+
+    width: 70%;
+
+    position: relative;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+}
+
+.web-skills{
+    display: flex;
+    align-items: center;
+}
+
+.web-skill{
+    
+    height: 160px;
+    width: 130px;
+    align-items: center;
+    text-align: center;
+    /* border-radius: 50%; */
+    font-size: large;
+
+    padding: 55px;
+
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.p-who{
+    font-size: 20px;
+
+}
+
+
+/* ---------------------------------- App and AI ----------------------------- */
+
+
+/* ---------------------------------- App ----------------------------- */
+.app-ai{
+      /* background-image: url(../gen-web/solo-learner.jpg); */
+      background-image: url(../gen-web/thinking.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      height: 820px;
+      width: 100%;
+  
+      color: rgb(0, 0, 0);
+  
+      border-radius: 20px;
+}
+
+.apps{
+    width: 90%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    margin: auto;
+
+}
+.flutter{
+    display: flex;
+    flex-direction: row;
+    width: 44%;
+    text-align: center;
+
+    padding: 15px;
+
+    position: relative;
+    top: 8%;
+    left: 25%;
+
+
+}
+
+.apple{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+
+    padding: 10px;
+
+    position: relative;
+    top: 55%;
+    left: 15%;
+}
